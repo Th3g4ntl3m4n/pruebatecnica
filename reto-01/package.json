@@ -1,0 +1,21 @@
+{
+  "name": "reto-01-agente-proveedor",
+  "version": "1.0.0",
+  "description": "Agente conversacional para registro como proveedor — Periferia IT Group",
+  "scripts": {
+    "dev": "bun run --watch src/server.ts",
+    "start": "bun run src/server.ts",
+    "demo": "bun run demo.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.30.0",
+    "exceljs": "^4.4.0",
+    "hono": "^4.6.3",
+    "pdf-lib": "^1.17.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.0",
+    "typescript": "^5.5.4"
+  }
+}
